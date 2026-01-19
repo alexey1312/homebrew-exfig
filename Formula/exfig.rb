@@ -1,19 +1,19 @@
 class Exfig < Formula
   desc "Export colors, typography, icons, and images from Figma to Xcode, Android, Flutter, and Web"
   homepage "https://github.com/alexey1312/ExFig"
-  version "1.2.26"
+  version "1.2.27"
   license "MIT"
 
   on_macos do
     url "https://github.com/alexey1312/ExFig/releases/download/v#{version}/exfig-macos.zip"
-    sha256 "610ac45de98ef6209aa93d73f70efb2704d81ba590e92042be23e52ce9140d8b"
+    sha256 "8875474a1f988e2417cef235259482221212f89fa39982775a7c8a72e23303ac"
 
     depends_on macos: :monterey
   end
 
   on_linux do
     url "https://github.com/alexey1312/ExFig/releases/download/v#{version}/exfig-linux-x64.tar.gz"
-    sha256 "422e38ff978a917f45b59df6abae2edcdb7bd090338a17460b44549c50a64d3f"
+    sha256 "2f554228f84919145581a040d5594a2a51b70b0904cd32534617d2c18da09c75"
   end
 
   def install
